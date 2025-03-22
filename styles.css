@@ -1,0 +1,43 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.xmind-preview-container {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.xmind-thumbnail {
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.xmind-thumbnail:hover {
+    transform: scale(1.02);
+}
+
+.xmind-no-preview {
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 20px;
+}
+
+.mod-cta {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.mod-cta:hover {
+    background-color: var(--interactive-accent-hover);
+}

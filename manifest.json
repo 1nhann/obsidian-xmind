@@ -1,0 +1,10 @@
+{
+	"id": "xmind-integration",
+	"name": "XMind Integration",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Integrate XMind. Auto-detect .xmind files, create new XMind files, and open them with XMind application.",
+	"author": "1nhann",
+	"authorUrl": "https://github.com/1nhann",
+	"isDesktopOnly": true
+}
